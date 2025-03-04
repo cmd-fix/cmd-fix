@@ -1,4 +1,3 @@
-``md
 # 🔄 How to Reactivate Windows 10 & 11
 
 ## ⚠️ Instructions
@@ -70,4 +69,3 @@ exit /b
 3. **Copy and paste the command correctly.**
 
 If the issue persists, restart your PC and try again.
-```
