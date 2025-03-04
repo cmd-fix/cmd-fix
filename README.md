@@ -40,10 +40,40 @@ if "%WindowsProductName%"=="Microsoft Windows 10 Pro N" (
     set Key=NPPR9-FWDCX-D2C8J-H872K-2YT43
 ) else if "%WindowsProductName%"=="Microsoft Windows 11 Enterprise" (
     set Key=NPPR9-FWDCX-D2C8J-H872K-2YT43
+) else if "%WindowsProductName%"=="Microsoft Windows 10 EnterpriseN" (
+    set Key=DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+) else if "%WindowsProductName%"=="Microsoft Windows 11 EnterpriseN" (
+    set Key=DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+) else if "%WindowsProductName%"=="Microsoft Windows 10 Education" (
+    set Key=NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+) else if "%WindowsProductName%"=="Microsoft Windows 11 Education" (
+    set Key=NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+) else if "%WindowsProductName%"=="Microsoft Windows 10 EducationN" (
+    set Key=2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+) else if "%WindowsProductName%"=="Microsoft Windows 11 EducationN" (
+    set Key=2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
 ) else if "%WindowsProductName%"=="Microsoft Windows 10 Home" (
     set Key=TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
 ) else if "%WindowsProductName%"=="Microsoft Windows 11 Home" (
     set Key=TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
+) else if "%WindowsProductName%"=="Microsoft Windows 10 Home N" (
+    set Key=3KHY7-WNT83-DGQKR-F7HPR-844BM
+) else if "%WindowsProductName%"=="Microsoft Windows 11 Home N" (
+    set Key=3KHY7-WNT83-DGQKR-F7HPR-844BM
+) else if "%WindowsProductName%"=="Microsoft Windows 10 Home Single Language" (
+    set Key=7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH
+) else if "%WindowsProductName%"=="Microsoft Windows 11 Home Single Language" (
+    set Key=7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH
+) else if "%WindowsProductName%"=="Microsoft Windows 10 Home Country Specific" (
+    set Key=PVMJN-6DFY6-9CCP6-7BKTT-D3WVR
+) else if "%WindowsProductName%"=="Microsoft Windows 11 Home Country Specific" (
+    set Key=PVMJN-6DFY6-9CCP6-7BKTT-D3WVR
+) else if "%WindowsProductName%"=="Microsoft Enterprise 2015LTSB" (
+    set Key=WNMTR-4C88C-JK8YV-HQ7T2-76DF9
+) else if "%WindowsProductName%"=="Microsoft Enterprise 2015LTSBN" (
+    set Key=2F77B-TNFGY-69QQF-B8YKP-D69TJ
+) else if "%WindowsProductName%"=="Microsoft Enterprise 2016LTSB" (
+    set Key=DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ
 ) else (
     set Key=QFFDN-GRT3P-VKWWX-X7T3R-8B639
 )
