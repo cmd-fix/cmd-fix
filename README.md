@@ -1,4 +1,5 @@
-✅ Official Microsoft Source for KMS Client Setup Keys: https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys
+✅ Official Microsoft Source for KMS Client Setup Keys:
+https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys
 
 # 🔄 How to Reactivate Windows 10 & 11
 
